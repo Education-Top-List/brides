@@ -417,6 +417,8 @@ span.woocommerce-Price-amount{
   }
 }
 /* end include*/
+.nav_primary{
+}
 .nav_primary ul li {
      float:left;
      position: relative;
@@ -433,7 +435,7 @@ span.woocommerce-Price-amount{
 .nav_primary ul>li>a{
      display: inline-block;
      padding: 10px 21px;
-     color: #fff;
+     color: #000;
      font-weight: 700;
      transition: all 0.3s;
      font-size: 13px;
@@ -606,7 +608,8 @@ article.post{
 }
 .nav_primary{
      float: none;
-     margin: 0px;
+     margin: 0px auto;
+     display: table;
 }
 .search_header{
      float: left;
@@ -659,9 +662,7 @@ article.post{
 .fixedheader .search_header{
      margin:12px 0px 0px 0px;
 }
-.phone_search_hd{
-     float:right;
-}
+.phone_search_hd{position: absolute;top: 0px;right: 0px;}
 .address_header{
      float: left;
      margin: 34px 0px 0px 110px;
